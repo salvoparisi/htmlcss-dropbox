@@ -2,29 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 header{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    img{
+        padding: 15px 0;
+    }
     a{
-        padding-top: 5px;
+        padding: 20px 0;
         text-decoration: none;
         color: black;
     }
     a:hover{
-        padding-bottom: 20px;
         border-bottom: black 1px solid;
     }
-    position: fixed;
-    top: 0;
-    width: 100%;
     button{
         background-color: blue;
         padding: 5px 10px;
         color: white;
         border-color: white;
+        margin-top: 15px;
     }
 }
 #rightheader, #leftheader{
@@ -44,5 +44,44 @@ header{
     display: flex;
     justify-content: space-around;
 }
+/*End Header*/
 
-
+#jumbo{
+    background-color: aquamarine;
+    height: 600px;
+}
+#container-lg{
+    
+    padding: 30px 23%;
+    h1{
+        font-size: 70px;
+    }
+}
+#jumboimg{
+    
+    width: 800px;
+    right: 0;
+}
+#jumboflex{
+    padding-left: 23%;
+    div{
+        font-size: 15px;
+        width: 300px;
+        
+        
+    }
+    display: flex;
+    button{
+        color: white;
+        padding: 10px;
+        margin-top: 40px;
+        background-color: blue;
+    }
+    #annulla{
+        padding-top: 30px;
+    }
+    #downarrow{
+        font-size: 50px;
+        margin-top: 80px;
+    }
+}
