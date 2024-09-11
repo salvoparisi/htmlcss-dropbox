@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    a{
+        padding-top: 5px;
+        text-decoration: none;
+        color: black;
+    }
+    a:hover{
+        padding-bottom: 20px;
+        border-bottom: black 1px solid;
+    }
+    position: fixed;
+    top: 0;
+    width: 100%;
+    button{
+        background-color: blue;
+        padding: 5px 10px;
+        color: white;
+        border-color: white;
+    }
+}
+#rightheader, #leftheader{
+    display: flex;
+    justify-content: space-around;
+}
+
+#leftnav{
+    width: 400px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+#rightnav{
+    width: 400px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
