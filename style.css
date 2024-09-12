@@ -113,9 +113,10 @@ header{
         }
         #columns{
             display: flex;
+            justify-content: space-between;
         }
         .col-4{
-            width: 310px;
+            width: 300px;
             
         }
     }
@@ -127,7 +128,7 @@ header{
 
 .column-main{
     padding: 20px;
-    height: 850px;
+    height: 900px;
     border: 1px rgb(212, 212, 212) solid;
     ul{
         list-style: none;
@@ -151,7 +152,7 @@ header{
         color: white;
         margin-top: 80px;
         margin-bottom: 20px;
-        
+        white-space: nowrap;
         
     }
     .contactus{
@@ -334,5 +335,26 @@ header{
     padding: 40px 30px;
     div{
         padding: 100px 0 50px 0;
+    }
+}
+
+#teamtrial{
+    background-color: aquamarine;
+    justify-content: center;
+    display: flex;
+    .container-sm{
+        display: flex;
+        justify-content: space-between;
+        h1{
+            white-space: nowrap;
+            font-size: 40px;
+            margin-bottom: 100px;
+            color: brown;
+        }
+        button{
+            margin-bottom: 150px;
+            padding: 5px 50px;
+            border: none;
+        }
     }
 }
