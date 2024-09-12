@@ -4,7 +4,15 @@
     box-sizing: border-box;
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-
+:root{
+    --jumbocolor: #b4d0e7;
+    --bluebuttons: #0061ff;
+    --lightgreen: #d1e9cd;
+    --green: #a2d39b;
+    --floridablu: #0093ce;
+    --asubrown: #61082b;
+    --hearstblu: #b4d0e7;
+}
 header{
     position: fixed;
     display: flex;
@@ -24,7 +32,7 @@ header{
         border-bottom: black 1px solid;
     }
     button{
-        background-color: blue;
+        background-color: var(--bluebuttons);
         padding: 5px 10px;
         color: white;
         border-color: white;
@@ -87,7 +95,7 @@ header{
         color: white;
         padding: 10px;
         margin-top: 40px;
-        background-color: blue;
+        background-color: var(--bluebuttons);
     }
     #annulla{
         padding-top: 30px;
@@ -147,7 +155,7 @@ header{
         white-space: nowrap;
     }
     button{
-        background-color: blue;
+        background-color: var(--bluebuttons);
         padding: 10px 55px;
         color: white;
         margin-top: 80px;
@@ -166,7 +174,7 @@ header{
         display: flex;
         div{
             i{
-                color: blue;
+                color: var(--bluebuttons);
             }
         }
     }
@@ -199,7 +207,7 @@ header{
     button{
         margin: 10px 0;
         padding: 10px 40px;
-        background-color: blue;
+        background-color: var(--bluebuttons);
         color: white;
     }
     h2{
@@ -275,7 +283,7 @@ header{
             padding: 70px 0;
         }
         a{
-            color: blue;
+            color: var(--bluebuttons);
             padding-bottom: 100px;
         }
     }
@@ -303,24 +311,24 @@ header{
     }
 }
 #designit-green{
-    background-color: green;
-    border: greenyellow solid 20px;
+    background-color: var(--green);
+    border: var(--lightgreen) solid 20px;
 }
 #asu{
-    background-color: brown;
+    background-color: var(--asubrown);
 }
 #uf{
-    background-color: blue;
+    background-color: var(--floridablu);
     padding: 140px 0;
 }
 #topps{
     background-color: red;
 }
 #wbr{
-    background-color: lightcoral;
+    background-color: red;
 }
 #hearst{
-    background-color: aquamarine;
+    background-color: var(--hearstblu);
 }
 #lonelyplanet{
     background-color: darkblue;
@@ -352,7 +360,7 @@ header{
             white-space: nowrap;
             font-size: 40px;
             margin-bottom: 100px;
-            color: brown;
+            color: var(--asubrown);
         }
         button{
             margin-bottom: 150px;
