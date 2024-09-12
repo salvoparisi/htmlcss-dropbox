@@ -115,19 +115,19 @@ header{
             display: flex;
         }
         .col-4{
-            width: 33%;
+            width: 310px;
             
         }
     }
     .textalign{
-        display: flex;
         padding: 40px 80px;
+        text-align: center;
     }
 }
 
 .column-main{
     padding: 20px;
-    height: 800px;
+    height: 850px;
     border: 1px rgb(212, 212, 212) solid;
     ul{
         list-style: none;
@@ -151,26 +151,32 @@ header{
         color: white;
         margin-top: 80px;
         margin-bottom: 20px;
+        
+        
     }
     .contactus{
-        margin-top: 60px;
-        padding: 10px 105px;
+        padding: 10px 100px;
     }
     h4{
         padding-top: 80px;
         padding-top: 20px;
     }
-    .ulcheck li::before{
-        content: "\2713";
-        margin-right: 5px;
-        color: blue;
-        font-style: italic;
-        text-decoration: double;
+    li{
+        display: flex;
+        div{
+            i{
+                color: blue;
+            }
+        }
+    }
+    i{
+        padding-right: 10px;
     }
     
         
     
 }
+
 /*end plan*/
 .container-sm{
     width: 960px;
