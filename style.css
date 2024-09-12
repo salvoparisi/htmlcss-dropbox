@@ -282,11 +282,10 @@ header{
 }
 #teamsimg{
     padding-top: 150px;
-    width: 1903px;
     .disflex{
-        display: flex;
-        justify-content: center;
+        width: 1903px;
     }
+    
 }
 #square1, #square2, #square3{
     width: calc(100%/3);
@@ -375,6 +374,7 @@ header{
         }
         div{
             padding: 30px 0;
+            white-space: nowrap;
         }
         i{
             padding-left: 290px;
@@ -405,4 +405,47 @@ header{
         display: block;
     }
 }
+/*end question*/
+/*end main*/
+footer{
+    background-color: black;
+    height: 430px;
+}
+#lastfoot{
+    
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0 50px 0;
+    margin-top: 150px;
+    .container-lg{
+        width: 1100px;
+        display: flex;
+        .footcolumns{
+            width: calc(100%/5);
+        }
+    }
+    h2{
+        padding-bottom: 25px;
+    }
+    li{
+        padding-bottom: 15px;
+        list-style: none;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        white-space: nowrap;
+    }
+    
+}
 
+.container-lg{
+    width: 1100px;
+    span{
+        color: gray;
+        text-align: left;
+        border-top: 1px solid gray;
+        padding: 30px 0;
+    }
+}
