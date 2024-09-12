@@ -108,10 +108,10 @@ header{
             
         }
     }
-}
-.textalign{
-    display: flex;
-    padding: 40px 80px;
+    .textalign{
+        display: flex;
+        padding: 40px 80px;
+    }
 }
 
 .column-main{
@@ -160,3 +160,36 @@ header{
         
     
 }
+/*end plan*/
+.container-sm{
+    width: 960px;
+    padding-top: 100px;
+}
+#team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .textalign{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .enterprise{
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    button{
+        margin: 10px 0;
+        padding: 10px 40px;
+        background-color: blue;
+        color: white;
+    }
+    h2{
+        padding-bottom: 20px;
+    }
+    .color-gray{
+        color: gray;
+        padding: 60px 30% 200px 20px;
+    }
+}
+/*end team*/
