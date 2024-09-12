@@ -292,5 +292,47 @@ header{
     div{
         width: 50%;
         aspect-ratio: 1/1;
+        img{
+            width: 60%;
+           
+        }
+    }
+}
+#designit-green{
+    background-color: green;
+    border: greenyellow solid 20px;
+}
+#asu{
+    background-color: brown;
+}
+#uf{
+    background-color: blue;
+    padding: 120px 0;
+}
+#topps{
+    background-color: red;
+}
+#wbr{
+    background-color: lightcoral;
+}
+#hearst{
+    background-color: aquamarine;
+}
+#lonelyplanet{
+    background-color: darkblue;
+}
+#clearchannel{
+    background-color: yellow;
+}
+#designit-green, #asu,#uf, #topps, #wbr, #lonelyplanet, #clearchannel, #hearst{
+    display: flex;
+    align-content: center;
+    justify-content: center;    
+}
+
+#square2{
+    padding: 40px 30px;
+    div{
+        padding: 100px 0 50px 0;
     }
 }
