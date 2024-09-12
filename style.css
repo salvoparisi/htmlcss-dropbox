@@ -243,16 +243,23 @@ header{
     }
     .linecard{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         div{
-            width: 33%;
+            width: 310px;
             display: flex;
             justify-content: center;
             flex-direction: column;
         }
         img{
-            width: 300px;
+            width: auto;
         };
-
+        h2{
+            padding-bottom: 30px;
+        }
     }
 }
+
+#card1>div>div, #card2>div>div, #card3>div>div, #card4>div>div, #card5>div>div, #card6>div>div{
+    padding: 10px 50px 30px 0;
+}
+/*end cards*/
