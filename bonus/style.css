@@ -62,7 +62,7 @@ header{
 /*End Header*/
 #jumbo{
     background-color: aquamarine;
-    height: 650px;
+    height: 750px;
     margin-bottom: 200px;
     padding-top: 100px;
     .disflex{
@@ -79,7 +79,7 @@ header{
 }
 #jumboimg{
     
-    width: 750px;
+    width: 1000px;
     right: 0;
 }
 #jumboflex{
@@ -471,7 +471,45 @@ footer{
         padding: 30px 0;
     }
 }
-
-
-
+/*start media area*/
+@media (max-width: 1528px) {
+    #jumboimg{
+        width: 600px;
+    }
+    #jumbo{
+        height: 650px;
+    }
+}
+@media (max-width: 1422px) {
+    #jumbo{
+        height: 750px;
+    }
+}
+@media (max-width: 1058px){
+    #jumboimg{
+        width: 400px;
+        height: 250px;
+    }
+    #jumbo{
+        height: 650px;
+        i{
+            display: none;
+        }
+    }
+    header{
+        a{
+            display: none;
+        }
+        #rightheader{
+            width: 200px;
+        }
+    }
+    
+}
+@media (max-width: 978px) {
+    #jumbo{
+        height: 750px;
+    }
+}
+/*end jumbo media*/
 
