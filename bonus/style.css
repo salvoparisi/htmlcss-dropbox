@@ -116,10 +116,6 @@ header{
         span{
             padding-right: 40px; 
         }
-        #columns{
-            display: flex;
-            justify-content: space-between;
-        }
         .col-4{
             width: 300px;
             
@@ -129,6 +125,10 @@ header{
         padding: 40px 80px;
         text-align: center;
     }
+}
+#columns{
+    display: flex;
+    justify-content: space-between;
 }
 
 .column-main{
@@ -157,7 +157,7 @@ header{
         color: white;
         margin-top: 80px;
         margin-bottom: 20px;
-        
+        white-space: nowrap;
         
     }
     .contactus{
@@ -198,9 +198,10 @@ header{
         padding: 0 20px;
         display: flex;
         justify-content: space-between;
+        
     }
     button{
-        margin: 10px 0;
+        margin: 10px;
         padding: 10px 40px;
         background-color: var(--bluebuttons);
         color: white;
@@ -284,12 +285,13 @@ header{
         a{
             color: var(--bluebuttons);
             padding-bottom: 100px;
+            
         }
     }
 }
 #teamsimg{
     padding-top: 150px;
-    .disflex{
+    .teamcontainer{
         width: 100%;
         aspect-ratio: 3/1;
         display: flex;
@@ -380,7 +382,7 @@ header{
             margin-bottom: 150px;
             padding: 5px 50px;
             border: none;
-            
+            margin-left: 10px;
         }
     }
 }
@@ -433,7 +435,7 @@ header{
 /*end main*/
 footer{
     background-color: black;
-    height: 430px;
+    height: auto;
 }
 #lastfoot{
     
@@ -442,10 +444,13 @@ footer{
     padding: 100px 0 50px 0;
     margin-top: 150px;
     
-    .container-lg{
+    .container-foot{
+        padding: 0 15%;
         display: flex;
+        
         .footcolumns{
             width: 100%;
+            padding: 10px 5px;
         }
     }
     h2{
@@ -501,7 +506,10 @@ footer{
             display: none;
         }
         #rightheader{
-            width: 200px;
+            width: 100px;
+        }
+        #leftheader{
+            width: 100px;
         }
     }
     
@@ -511,5 +519,75 @@ footer{
         height: 750px;
     }
 }
+@media (max-width: 978px) {
+    #jumbo{
+        h1{
+            font-size: 50px;
+        }
+        height: 550px;
+    }
+} 
+@media (max-width: 822px){
+    #jumboflex{
+        text-align: center;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    #jumbo{
+        height: auto;
+        h1{
+            text-align: center;
+        }
+    }
+}
+@media (max-width: 611px){
+    #jumbo{
+        height: auto;
+    }
+}
 /*end jumbo media*/
 
+@media (max-width:1124px){
+    #columns{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/*end jumbo plans*/
+
+@media (max-width:1171px){
+    #findpartner{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/*end partner*/
+
+@media (max-width:1000px){
+    .linecard{
+        flex-direction: column;
+    }
+}
+/*end cards*/
+
+@media (max-width:1310px){
+    .teamcontainer{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        #square1, #square2, #square3{
+            width: 100%;
+        }
+    }
+}
+
+/*end teams*/
+
+@media (max-width:700px){
+    .container-foot{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+    }
+}
